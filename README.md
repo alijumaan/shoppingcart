@@ -1,6 +1,6 @@
 ## LaravelShoppingCart
 
-A simple shopping cart implementation for Laravel 7 & 8.
+A simple shopping cart implementation for Laravel 8 & 9.
 
 ## Installation
 
@@ -12,7 +12,7 @@ Run the Composer require command from the Terminal:
 
 ### Laravel <= 8.0
 
-Should you still be on version 7.0 of Laravel, the final steps for you are to add the service provider of the package and alias the package. To do this open your `config/app.php` file.
+Should you still be on version 8.0 or 9.0 of Laravel, the final steps for you are to add the service provider of the package and alias the package. To do this open your `config/app.php` file.
 
 Add a new line to the `providers` array:
 

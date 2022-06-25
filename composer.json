@@ -1,38 +1,39 @@
 {
-    "name": "alijumaan/shoppingcart",
-    "description": "Laravel Shopping Cart",
-    "authors": [
-      {
-        "name": "Ali AlQahtani",
-        "email": "ali@alialqahtani.sa"
-      }
-    ],
-    "type": "library",
-    "require": {
-        "illuminate/support": "^9.18",
-        "illuminate/session": "^9.18",
-        "illuminate/events": "^9.18"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^9.5",
-        "mockery/mockery": "^1.5",
-        "orchestra/testbench": "^7.5"
-    },
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Alijumaan\\Shoppingcart\\": "src/"
-        }
-    },
-    "minimum-stability": "stable",
-    "extra": {
-      "laravel": {
-        "providers": [
-          "Alijumaan\\Shoppingcart\\ShoppingCartServiceProvider"
-        ],
-        "aliases": {
-          "Cart": "Alijumaan\\Shoppingcart\\Facades\\Cart"
-        }
+  "name": "alijumaan/shoppingcart",
+  "description": "Laravel Shopping Cart",
+  "authors": [
+    {
+      "name": "Ali AlQahtani",
+      "email": "ali@alialqahtani.sa"
+    }
+  ],
+  "type": "library",
+  "require": {
+    "php": "^8.0|^8.1",
+    "illuminate/support": "^9.18",
+    "illuminate/session": "^9.18",
+    "illuminate/events": "^9.18"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5",
+    "mockery/mockery": "^1.5",
+    "orchestra/testbench": "^7.5"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Alijumaan\\Shoppingcart\\": "src/"
+    }
+  },
+  "minimum-stability": "stable",
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Alijumaan\\Shoppingcart\\ShoppingCartServiceProvider"
+      ],
+      "aliases": {
+        "Cart": "Alijumaan\\Shoppingcart\\Facades\\Cart"
       }
     }
+  }
 }
