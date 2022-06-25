@@ -15,7 +15,7 @@ class ShoppingCartServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        $this->app->bind('cart', 'Alijumaan\ShoppingCart\Cart');
+        $this->app->bind('cart', 'Alijumaan\Shoppingcart\Cart');
 
         $config = __DIR__ . '/../config/cart.php';
         $this->mergeConfigFrom($config, 'cart');
@@ -28,7 +28,7 @@ class ShoppingCartServiceProvider extends ServiceProvider
             }
         });
 
-        if ( ! class_exists('CreateShoppingCartTable')) {
+        if ( ! class_exists('CreateShoppingcartTable')) {
             // Publish the migration
             $timestamp = date('Y_m_d_His', time());
 

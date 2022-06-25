@@ -1,4 +1,4 @@
-## LaravelShoppingCart
+## LaravelShoppingcart
 
 A simple shopping cart implementation for Laravel 8 & 9.
 
@@ -27,7 +27,7 @@ Now you're ready to start using the shopping cart in your application.
 **As of version 2 of this package it's possibly to use dependency injection to inject an instance of the Cart class into your controller or other class**
 
 ## Overview
-Look at one of the following topics to learn more about LaravelShoppingCart
+Look at one of the following topics to learn more about LaravelShoppingcart
 
 * [Usage](#usage)
 * [Collections](#collections)
@@ -40,7 +40,7 @@ Look at one of the following topics to learn more about LaravelShoppingCart
 
 ## Usage
 
-The shoppingCart gives you the following methods to use:
+The shoppingcart gives you the following methods to use:
 
 ### Cart::add()
 
