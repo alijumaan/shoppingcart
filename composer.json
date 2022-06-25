@@ -31,6 +31,9 @@
       "providers": [
         "Alijumaan\\Shoppingcart\\ShoppingcartServiceProvider"
       ],
+      "dont-discover": [
+        "laravel/dusk"
+      ],
       "aliases": {
         "Cart": "Alijumaan\\Shoppingcart\\Facades\\Cart"
       }
