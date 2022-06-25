@@ -29,7 +29,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Alijumaan\\Shoppingcart\\ShoppingCartServiceProvider"
+        "Alijumaan\\Shoppingcart\\ShoppingcartServiceProvider"
       ],
       "aliases": {
         "Cart": "Alijumaan\\Shoppingcart\\Facades\\Cart"

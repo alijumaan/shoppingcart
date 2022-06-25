@@ -6,7 +6,7 @@ use Illuminate\Auth\Events\Logout;
 use Illuminate\Session\SessionManager;
 use Illuminate\Support\ServiceProvider;
 
-class ShoppingCartServiceProvider extends ServiceProvider
+class ShoppingcartServiceProvider extends ServiceProvider
 {
     /**
      * Register the service provider.
